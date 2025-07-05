@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Women's PU Crossbody Bag - Limited Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf9f7;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #ffeef8 100%);
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .countdown-box {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .popup {
+            animation: slideIn 0.5s forwards;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .gallery-item {
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        
+        .color-option {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .color-option:hover, .color-option.active {
+            transform: scale(1.1);
+            border-color: #000;
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f5f7fa 0%, #ffeef8 100%);
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header with Countdown -->
+    <header class="bg-pink-50 py-2 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-sm font-medium text-pink-600 animate-pulse">
+                🔥 DISKON 75% HARI INI SAJA! Promo berakhir dalam: 
+                <span id="countdown" class="font-bold"></span>
+            </p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-12 md:py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="max-w-lg mx-auto">
+                    <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-xs font-semibold">LIMITED EDITION</span>
+                    <h1 class="playfair text-4xl md:text-5xl font-bold mt-4 mb-6">
+                        Classic Women's PU Crossbody Bag
+                    </h1>
+                    <p class="text-lg mb-8 text-gray-600">
+                        Tas kulit import premium yang elegan dan trendy, cocok untuk segala kesempatan. Tingkatkan gaya fashionmu dengan aksesori eksklusif ini!
+                    </p>
+                    
+                    <div class="flex items-center mb-6">
+                        <div class="text-3xl font-bold text-pink-600">Rp 189,000</div>
+                        <div class="ml-4 px-2 py-1 bg-pink-600 text-white text-sm rounded">DISKON 75%</div>
+                        <div class="ml-4 line-through text-gray-400">Rp 756,000</div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex items-center text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="text-gray-600 ml-2">4.9/5 (1,234 reviews)</span>
+                        </div>
+                        <div class="flex items-center text-green-600">
+                            <i class="fas fa-check-circle mr-2"></i>
+                            <span>1,567+ terjual bulan ini</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#order" class="block w-full md:w-auto bg-pink-600 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded-lg text-center transition duration-300 transform hover:scale-105 shadow-lg">
+                        BELANJA SEKARANG <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    
+                    <div class="mt-4 flex items-center text-sm text-gray-500">
+                        <i class="fas fa-shield-alt mr-2"></i>
+                        <span>Garansi 30 hari uang kembali | Gratis ongkir*</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <img src="https://cdn.wshopon.com/image/87c478125531ede0010bf903048c057baa4feb67.jpeg" alt="Classic Women's PU Crossbody Bag" class="rounded-lg shadow-xl w-full max-w-lg mx-auto">
+                    <div class="absolute -bottom-5 -right-5 bg-white p-3 rounded-full shadow-lg">
+                        <div class="countdown-box p-3 rounded-full">
+                            <div class="text-center">
+                                <div class="text-xs text-gray-500">HARGA NAIK LAGI DALAM</div>
+                                <div class="font-bold text-pink-600" id="floating-countdown">00:15:00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12">
+                <div class="flex items-center">
+                    <i class="fas fa-truck text-2xl text-pink-500 mr-2"></i>
+                    <span class="text-sm font-medium">Gratis Ongkir</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-2xl text-pink-500 mr-2"></i>
+                    <span class="text-sm font-medium">Garansi 30 Hari</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-lock text-2xl text-pink-500 mr-2"></i>
+                    <span class="text-sm font-medium">Pembayaran Aman</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-headset text-2xl text-pink-500 mr-2"></i>
+                    <span class="text-sm font-medium">Customer Service 24/7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="py-16 bg-gray-50" id="gallery">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Galeri Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                <div class="gallery-item rounded-lg overflow-hidden shadow-md bg-white">
+                    <img src="https://img-preview.myshopline.com/image/store/1716888760764/9a45a7d15e261b05dbca230102c8070f.gif?w=400&h=400&_f=1" alt="Bag GIF 1" class="w-full h-auto">
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-md bg-white">
+                    <img src="https://img-preview.myshopline.com/image/store/1716888760764/f7c9d2c4d6e672ddc5b7694f2ffb87d1.gif?w=400&h=400&_f=1" alt="Bag GIF 2" class="w-full h-auto">
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-md bg-white">
+                    <img src="https://cdn.wshopon.com/image/bbb1bbb6b235563193b43d30345ef7088cb55bc6-800.jpeg" alt="Bag Detail" class="w-full h-auto">
+                </div>
+            </div>
+            <!-- Features -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Keunggulan Produk Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="text-center p-6 rounded-lg bg-gray-50">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-gem text-2xl text-pink-500"></i>
+                    </div>
+                    <h3 class="playfair text-xl font-bold mb-3">Material Premium</h3>
+                    <p class="text-gray-600">Dibuat dari kulit PU import berkualitas tinggi dengan finishing mewah yang tahan lama dan mudah dibersihkan.</p>
+                </div>
+                <div class="text-center p-6 rounded-lg bg-gray-50">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-tshirt text-2xl text-pink-500"></i>
+                    </div>
+                    <h3 class="playfair text-xl font-bold mb-3">Desain Serbaguna</h3>
+                    <p class="text-gray-600">Cocok untuk berbagai kesempatan, dari acara formal hingga santai, membuat Anda selalu tampil stylish.</p>
+                </div>
+                <div class="text-center p-6 rounded-lg bg-gray-50">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-shopping-bag text-2xl text-pink-500"></i>
+                    </div>
+                    <h3 class="playfair text-xl font-bold mb-3">Fungsional</h3>
+                    <p class="text-gray-600">Kompartemen yang terorganisir dengan baik untuk menyimpan semua kebutuhan harian Anda dengan rapi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            <div class="text-center mt-8">
+                <a href="#order" class="inline-block bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                    LIHAT WARNA TERSEDIA <i class="fas fa-arrow-down ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Color Options -->
+    <section class="py-16 bg-white" id="colors">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Pilihan Warna Eksklusif</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                <div class="color-option active">
+                    <img src="https://cdn.wshopon.com/image/3ef5bc0bbcc31c0cf08839156b8b07089f5f36d3-800.jpeg" alt="Hitam" class="w-full rounded-lg shadow-md">
+                    <p class="text-center mt-2 font-medium">Hitam</p>
+                </div>
+                <div class="color-option">
+                    <img src="https://cdn.wshopon.com/image/9d0eeb5bcf68bc27237b22266c4ea7f4dfd870a0-800.jpeg" alt="Khaki" class="w-full rounded-lg shadow-md">
+                    <p class="text-center mt-2 font-medium">Khaki</p>
+                </div>
+                <div class="color-option">
+                    <img src="https://cdn.wshopon.com/image/aa72f9c34e2aadccb1be80a6b6847484fa52bad2.jpeg" alt="Putih" class="w-full rounded-lg shadow-md">
+                    <p class="text-center mt-2 font-medium">Putih</p>
+                </div>
+                <div class="color-option">
+                    <img src="https://cdn.wshopon.com/image/6ef2dd79e6ab273765698ae522de4f014a35fb79-800.jpeg" alt="Tan" class="w-full rounded-lg shadow-md">
+                    <p class="text-center mt-2 font-medium">Tan</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#order" class="inline-block bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                    PILIH WARNA FAVORIT ANDA <i class="fas fa-shopping-bag ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Detail Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div>
+                    <img src="https://cdn.wshopon.com/image/73343eaddd38c3418b0b5779a39b1e0a10ae9771.jpeg" alt="Product Detail 1" class="w-full rounded-lg shadow-md">
+                </div>
+                <div>
+                    <img src="https://cdn.wshopon.com/image/40a2b5b98962ac449053fd38509e0d89a5cc8347.jpeg" alt="Product Detail 2" class="w-full rounded-lg shadow-md">
+                </div>
+                <div>
+                    <img src="https://cdn.wshopon.com/image/ba2a1c1221ea383ab35f531423bfeacad5cc7f00.jpeg" alt="Product Detail 3" class="w-full rounded-lg shadow-md">
+                </div>
+                <div>
+                    <img src="https://cdn.wshopon.com/image/d8f81c7bbe76e06dfe5ef67eea2905b2fff3a213.jpeg" alt="Product Detail 4" class="w-full rounded-lg shadow-md">
+                </div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <h3 class="playfair text-2xl font-bold mb-6">Spesifikasi Produk</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Material:</strong> Kulit PU premium import dengan tekstur halus dan tahan lama</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Ukuran:</strong> 25cm (P) x 15cm (L) x 8cm (T) - Ukuran ideal untuk kebutuhan sehari-hari</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Fitur:</strong> Tas selempang dengan tali yang dapat disesuaikan (adjustable strap)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Kompartemen:</strong> 1 kompartemen utama + saku dalam + saku belakang</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Berat:</strong> Hanya 450 gram - Ringan dan nyaman digunakan seharian</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-pink-500 mt-1 mr-3"></i>
+                        <span><strong>Aksesoris:</strong> Dilengkapi dengan dust bag eksklusif untuk perawatan</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Apa Kata Pelanggan Kami?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="https://i.pinimg.com/736x/89/5a/12/895a128ef56a72a2c64edf1942104f34.jpg" alt="Customer" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Sarah Wijaya</h4>
+                                <div class="flex text-yellow-400 text-sm">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Tasnya sangat berkualitas! Materialnya premium dan desainnya sangat stylish. Sudah dipakai 2 bulan masih seperti baru. Worth it banget harganya!"</p>
+                </div>
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="https://cdn1-production-images-kly.akamaized.net/TReuPH65tih8BwS-u8DBNKEww0Q=/500x667/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3115281/original/056910100_1588144667-19761789_328884880858151_8797063787896111104_n.jpg" alt="Customer" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Dian Permata</h4>
+                                <div class="flex text-yellow-400 text-sm">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Pengiriman cepat dan packing rapi. Tasnya persis seperti di foto, warna hitamnya elegan banget. Sudah dapat banyak pujian dari teman-teman!"</p>
+                </div>
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="https://i.pinimg.com/736x/fe/69/02/fe69021f98ec0e0c1a0bdf3b3589e313.jpg" alt="Customer" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Rina Hartati</h4>
+                                <div class="flex text-yellow-400 text-sm">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Saya beli warna khaki dan putih, keduanya bagus! Kualitas jahitannya rapi dan talinya bisa diatur panjang pendeknya. Sangat recommended!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="playfair text-3xl font-bold text-center mb-12">Pertanyaan yang Sering Diajukan</h2>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-medium">
+                        <span>Berapa lama waktu pengiriman?</span>
+                        <i class="fas fa-plus text-pink-500"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-600 hidden">
+                        Kami melakukan pengiriman dalam 1-2 hari kerja setelah pembayaran dikonfirmasi. Estimasi waktu sampai tergantung lokasi: Jabodetabek 2-3 hari, Jawa 3-5 hari, Luar Jawa 5-7 hari kerja.
+                    </div>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-medium">
+                        <span>Apakah produk ini original?</span>
+                        <i class="fas fa-plus text-pink-500"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-600 hidden">
+                        Ya, produk ini 100% original dari brand kami dengan kualitas bahan import premium. Kami memberikan garansi 30 hari jika terdapat cacat produksi.
+                    </div>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-medium">
+                        <span>Bagaimana cara perawatan tas ini?</span>
+                        <i class="fas fa-plus text-pink-500"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-600 hidden">
+                        Gunakan kain lembut yang sedikit dibasahi untuk membersihkan permukaan tas. Hindari bahan kimia keras. Simpan dalam dust bag ketika tidak digunakan dan jauhkan dari sumber panas langsung.
+                    </div>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-medium">
+                        <span>Apakah bisa COD (Cash on Delivery)?</span>
+                        <i class="fas fa-plus text-pink-500"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-600 hidden">
+                        Untuk area tertentu kami menyediakan layanan COD. Silakan hubungi customer service kami untuk mengecek ketersediaan COD di alamat Anda.
+                    </div>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-medium">
+                        <span>Bagaimana jika produk tidak sesuai ekspektasi?</span>
+                        <i class="fas fa-plus text-pink-500"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-600 hidden">
+                        Kami memberikan garansi kepuasan 30 hari. Jika produk tidak sesuai deskripsi, Anda dapat mengembalikannya dalam kondisi baru dan kami akan mengembalikan uang Anda 100%.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 gradient-bg" id="order">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-8 md:p-12">
+                        <h2 class="playfair text-3xl font-bold mb-6">Tas Impian Anda Menanti!</h2>
+                        <p class="text-gray-600 mb-8">Jangan lewatkan kesempatan memiliki tas elegan ini dengan harga spesial. Stok terbatas!</p>
+                        
+                        <div class="flex items-center mb-6">
+                            <div class="text-3xl font-bold text-pink-600">Rp 189,000</div>
+                            <div class="ml-4 px-2 py-1 bg-pink-600 text-white text-sm rounded">DISKON 75%</div>
+                            <div class="ml-4 line-through text-gray-400">Rp 756,000</div>
+                        </div>
+                        
+                        <div class="mb-8">
+                            <div class="flex items-center text-green-600 mb-2">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                <span>1,567+ terjual bulan ini</span>
+                            </div>
+                            <div class="flex items-center text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="text-gray-600 ml-2">4.9/5 (1,234 reviews)</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://rara.orderonline.id/classic-womens-pu-crossbody-bag" class="block w-full bg-pink-600 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded-lg text-center transition duration-300 transform hover:scale-105 mb-4">
+                            BELANJA SEKARANG <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        
+                        <div class="text-center text-sm text-gray-500">
+                            <i class="fas fa-lock mr-2"></i> Pembayaran aman melalui berbagai metode pembayaran
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://cdn.wshopon.com/image/83919193baf6b6659bf732ddaf5c6078b702fa64.jpeg" alt="Classic Women's PU Crossbody Bag" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Popup -->
+    <div id="popup" class="fixed bottom-0 left-0 right-0 bg-pink-600 text-white p-4 shadow-lg popup hidden">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-2 md:mb-0">
+                <p class="font-bold">🔥 PROMO HARI INI SAJA! 🔥</p>
+                <p>Dapatkan DISKON 75% untuk Classic Women's PU Crossbody Bag!</p>
+            </div>
+            <div>
+                <a href="#order" class="bg-white text-pink-600 font-bold py-2 px-6 rounded-lg inline-block">BELANJA SEKARANG</a>
+                <button id="close-popup" class="ml-4 text-white">✕</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown').textContent = `${hours} jam ${minutes} menit ${seconds} detik`;
+            document.getElementById('floating-countdown').textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                if (answer.classList.contains('hidden')) {
+                    answer.classList.remove('hidden');
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                } else {
+                    answer.classList.add('hidden');
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                }
+            });
+        });
+        
+        // Color Selection
+        document.querySelectorAll('.color-option').forEach(color => {
+            color.addEventListener('click', () => {
+                document.querySelectorAll('.color-option').forEach(c => c.classList.remove('active'));
+                color.classList.add('active');
+            });
+        });
+        
+        // Show popup after 5 seconds
+        setTimeout(() => {
+            document.getElementById('popup').classList.remove('hidden');
+        }, 5000);
+        
+        // Close popup
+        document.getElementById('close-popup').addEventListener('click', () => {
+            document.getElementById('popup').classList.add('hidden');
+        });
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
